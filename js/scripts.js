@@ -33,6 +33,12 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
- 
+  if($document.window.innerWidth < 900){
+    console.log("test")
+    $('.carousel-item img').addClass('w-100').removeClass('w-75');
+  } else {
+    $('.carousel-item img').addClass('w-75').removeClass('w-100');
+  }
 
+ 
 })(jQuery); // End of use strict
