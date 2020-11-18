@@ -10164,6 +10164,11 @@ header.masthead h1 {
     height: 40vh !important;
   }
 }
+@media only screen and (max-width: 440px) {
+  .carousel-inner img {
+    height: 30vh !important;
+  }
+}
 @media only screen and (max-width: 360px) {
   .carousel-inner img {
     height: 20vh !important;
